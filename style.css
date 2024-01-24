@@ -2,6 +2,9 @@
     font-family: 'Manrope', sans-serif;
     color: #131318;
 }
+.text-color{
+    color: #13131899;
+}
 
 .common-btn {
     display: inline-flex;

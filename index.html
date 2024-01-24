@@ -33,12 +33,15 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/808a676d10.js" crossorigin="anonymous"></script>
 
+  <!-- style css -->
+
+
 
 </head>
 
-<body class="font-manrope mx-5 md:mx-20 lg:mx-32">
-
-  <section class="my-7 md:my-9 lg:my-12">
+<body class="font-manrope overflow-x-hidden">
+  <!--  nav bar  -->
+  <section class="container my-7 md:my-9 lg:my-12 w-10/12 mx-auto">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown lg:hidden">
@@ -78,7 +81,7 @@
   </section>
 
   <!-- banner section -->
-  <section class="container mx-auto">
+  <section class="container w-10/12 mx-auto">
 
     <div class="carousel w-full">
       <div id="slide1" class="carousel-item relative w-full">
@@ -105,17 +108,121 @@
           <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
         </div>
       </div>
-      <div id="slide3" class="carousel-item relative w-full">
+      <div id="slide4" class="carousel-item relative w-full">
         <img src="/images/1.png" class="w-full" />
         <div
           class="absolute flex left-[calc(50%-58px)] top-[80%] gap-5 transform -translate-y-1/2 lg:left-10 lg:top-[88%]">
-          <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
-          <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
+          <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
+          <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
         </div>
       </div>
     </div>
   </section>
-  <br>
+
+  <!-- section-01 professional Hockeys Club -->
+  <section class="container mt-14 md:mt-20 lg:mt-24 w-10/12 mx-auto">
+    <div>
+      <div
+        class="flex flex-col gap-4 md:gap-5 lg:gap-6 justify-center items-center text-center border-y border-dashed border-[#13131833] py-6 lg:py-8">
+        <h3 class="text-xl lg:text-4xl font-extrabold">Professional Hockeys Club</h3>
+        <p class="font-medium text-sm lg:text-base px-8 lg:px-60">Hockey is popular in every corner of the world. Here
+          are some summary of professional Hockie's club.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6 md:mt-8 lg:mt-12">
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="radial-progress text-red-500" style="--value:82;" role="progressbar">82%</div>
+          <h4 class="text-xl font-semibold ">Prayer Facility</h4>
+          <p class="text-color font-normal">In prayers room any one of any class or any religion can accomplish their
+            prayers</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+          <h4 class="text-xl font-semibold">Experienced Coach</h4>
+          <p class="text-color font-normal">So many experienced coaches are give training in our clubs.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+          <h4 class="text-xl font-semibold">Senior Player</h4>
+          <p class="text-color font-normal">Senior players plays important role for playing well in a hockey match.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="radial-progress text-blue-500" style="--value:85;" role="progressbar">85%</div>
+          <h4 class="text-xl font-semibold">Training Ground</h4>
+          <p class="text-color font-normal">A well training ground is must nedded for Hockey.Our ground are well with
+            small grass. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section-02 Program sections  -->
+  <section class="container mt-14 md:mt-20 lg:mt-24 w-10/12 mx-auto">
+    <div>
+      <div
+        class="flex flex-col gap-4 md:gap-5 lg:gap-6 justify-center items-center text-center border-y border-dashed border-[#13131833] py-6 lg:py-8">
+        <h3 class="text-xl lg:text-4xl font-extrabold">Program Sections</h3>
+        <p class="font-medium text-sm lg:text-base px-8 lg:px-60">Our hockey club is an inclusive and friendly place. We strive for performance, whilst making sure to value the fun in hockey. </p>
+      </div>
+      <!-- content -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6 md:mt-9 lg:mt-12">
+            <!-- image 1 -->
+        <div class="bg-[url('/images/2.png')] bg-cover rounded-xl lg:rounded-2xl h-[15.25rem] lg:h-[21.125rem] bg-center flex flex-col items-start justify-center relative ">
+          <div class="pl-6 lg:pl-0 lg:absolute lg:left-10 lg:bottom-10">
+
+            <h3 class="text-white font-extrabold text-xl lg:text-2xl mb-3 lg:mb-4">Junior Program</h3>
+
+            <p class="text-white opacity-80 font-medium text-sm lg:text-base mb-5 lg:mb-8 pr-8 lg:pr-10">Junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's overall efforts related to player development. 
+            </p>
+
+            <div>
+              <a href="#"><button class="hidden lg:inline-block common-btn py-3">Register Now!</button></a>
+              <a href="#"><button class="common-btn-mobile lg:hidden">Register Now!</button></a>
+            </div>
+
+          </div>
+        </div>
+          <!-- image 02 -->
+        <div class="bg-[url('/images/3.png')] bg-cover rounded-xl lg:rounded-2xl h-[15.25rem] lg:h-[21.125rem] bg-center flex flex-col items-start justify-center relative ">
+          <div class="pl-6 lg:pl-0 lg:absolute lg:left-10 lg:bottom-10">
+
+            <h3 class="text-white font-extrabold text-xl lg:text-2xl mb-3 lg:mb-4">Teenager Program</h3>
+
+            <p class="text-white opacity-80 font-medium text-sm lg:text-base mb-5 lg:mb-8 pr-8 lg:pr-10">Players are grouped by age and caliber and work on a wide range of skills such as, puck control, elite forward skills, specialized defense skills etc.
+            </p>
+
+            <div>
+              <a href="#"><button class="hidden lg:inline-block common-btn py-3">Register Now!</button></a>
+              <a href="#"><button class="common-btn-mobile lg:hidden">Register Now!</button></a>
+            </div>
+
+          </div>
+        </div>
+          <!-- image 03 -->
+        <div
+          class="bg-[url('/images/4.png')] lg:col-span-2 bg-cover rounded-xl lg:rounded-2xl h-[15.25rem] lg:h-[28.125rem] bg-center flex flex-col items-start justify-center relative ">
+          <div class="pl-6 lg:pl-0 lg:absolute lg:left-10 lg:bottom-10">
+
+            <h3 class="text-white font-extrabold text-xl lg:text-2xl mb-3 lg:mb-4">Professional Program</h3>
+
+            <p class="text-white opacity-80 font-medium text-sm lg:text-base mb-5 lg:mb-8 pr-8 lg:pr-[50%]">The Hockey Hut is a leader when it comes to professional skills development for ice hockey players all around the Capital Region.
+            </p>
+
+            <div>
+              <a href="#"><button class="hidden lg:inline-block common-btn py-3">Register Now!</button></a>
+              <a href="#"><button class="common-btn-mobile lg:hidden">Register Now!</button></a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
 
 
 </body>
